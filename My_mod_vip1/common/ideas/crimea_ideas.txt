@@ -1,0 +1,42 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		dzhaferseydamet = {
+			allowed = {
+				tag = CRI
+			}
+			traits = { dealbroker}
+			picture = "dzGSnvIl-551583"
+		}
+		aleksandrahmatovich = {
+			allowed = {
+				tag = CRI
+			}
+			traits = { stout_defender}
+			picture = "RdnjYoWu-551591"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+}
+	army_chief = {
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+}
+}

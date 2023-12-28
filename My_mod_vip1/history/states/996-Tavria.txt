@@ -1,0 +1,26 @@
+state=
+{
+	id=996
+	name="STATE_996"
+	manpower = 780365
+	
+	state_category = town
+	
+	history= {
+		add_core_of = UKR
+		add_core_of = CRI
+		add_core_of = SOV
+		owner = UKR
+		victory_points = {
+			13334 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces=
+	{
+          13334 11715}
+
+	local_supplies=4.0 
+}

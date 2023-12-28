@@ -1,0 +1,24 @@
+state={
+	id=957
+	name="STATE_957"
+	manpower = 56300
+	
+	state_category = rural
+	
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = CRI
+
+		
+	}
+
+	provinces={
+		
+	3722 6724 9718 13315 13314 13312}
+
+	local_supplies=0.0 
+}

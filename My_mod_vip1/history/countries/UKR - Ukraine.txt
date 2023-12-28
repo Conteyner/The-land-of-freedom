@@ -1,0 +1,91 @@
+﻿oob = "UKR_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.1
+set_war_support = 0.1
+set_convoys = 15
+
+
+add_ideas = {
+	limited_conscription
+	low_economic_mobilisation
+	#UKR_instabil_palament
+	UKR_oun
+	UKR_corruption
+}
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+
+	recruit_character = UKR_mikola_porsh
+	recruit_character = UKR_viktor_klimenko
+	recruit_character = UKR_ivan_poltavets
+	recruit_character = bolbochan
+	recruit_character = UKR_mikola_leontovich
+	recruit_character = UKR_kost_levickii
+	recruit_character = UKR_grigorii_potrovskii
+	recruit_character = UKR_dmytro_doncov
+	recruit_character = UKR_mykola_chobotiv
+	recruit_character = UKR_myhailo_tereshenko
+	recruit_character = UKR_myhailo_kakurin
+	recruit_character = UKR_vasyl_chuchupaka
+
+set_autonomy = {
+	target = BLR
+	autonomous_state = autonomy_puppet
+}
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "UKR_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.9.27"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 33
+	fascism = 27
+	communism = 25
+	neutrality = 15
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = ukrainskayacentralnayarada
+recruit_character = konovalec
+recruit_character = volodymyr_vinnichenko
+
+recruit_character = getmanpavelskorpadskiy
+recruit_character = evgeniykonovalec
+recruit_character = bolbochan
+recruit_character = tyutyunnik
+recruit_character = prisovskiy
+recruit_character = voloh
+recruit_character = yakovsafonov
+recruit_character = nikoforaleksandrovich
+recruit_character = udovichenko
+recruit_character = almazov
+recruit_character = alexey_krechovskyu
+

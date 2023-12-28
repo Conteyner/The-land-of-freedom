@@ -1,0 +1,100 @@
+focus_tree = {
+	id = moldova_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MOL
+		}
+	}
+	default = no
+	focus = {
+		id = MOL_elections
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 10
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = MOL_democraty_el
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MOL_elections
+		}
+		mutually_exclusive = {
+			focus = MOL_war_count
+			focus = MOL_republican_el
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = MOL_republican_el
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MOL_elections
+		}
+		mutually_exclusive = {
+			focus = MOL_war_count
+			focus = MOL_democraty_el
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = MOL_war_count
+		icon = GFX_focus_generic_infiltration
+		cost = 10
+		prerequisite = {
+			focus = MOL_elections
+		}
+		mutually_exclusive = {
+			focus = MOL_republican_el
+			focus = MOL_democraty_el
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = MOL_military_sup
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10
+		prerequisite = {
+			focus = MOL_war_count
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = MOL_ultranationalism
+		icon = GFX_focus_eng_organise_the_blackshirts
+		cost = 10
+		prerequisite = {
+			focus = MOL_war_count
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = MOL_army_effort
+		icon = GFX_focus_generic_combined_arms
+		cost = 10
+		prerequisite = {
+			focus = MOL_ultranationalism
+		}
+		prerequisite = {
+			focus = MOL_military_sup
+		}
+		x = 13
+		y = 3
+
+	}
+}

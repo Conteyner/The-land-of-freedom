@@ -1,0 +1,296 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+		SpriteType = {
+	name = "GFX_goal_kiev_misk_bud"
+	texturefile = "gfx/interface/goals/focus_kiev_misk_bud.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_kraz"
+	texturefile = "gfx/interface/goals/focus_kraz.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_darnitski_tanki"
+	texturefile = "gfx/interface/goals/focus_darnitski_tanki.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_minbud"
+	texturefile = "gfx/interface/goals/focus_minbud.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_form_rada"
+	texturefile = "gfx/interface/goals/focus_form_rada.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_petlura_dem"
+	texturefile = "gfx/interface/goals/petlura_dem.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_new_school"
+	texturefile = "gfx/interface/goals/new_school.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_police"
+	texturefile = "gfx/interface/goals/UKR_police_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_mezmorya"
+	texturefile = "gfx/interface/goals/mezmorya.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_svoboda_slova"
+	texturefile = "gfx/interface/goals/svoboda_slova.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_friend_bilorus"
+	texturefile = "gfx/interface/goals/friend_bilorus.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_zahid_na_garatuy"
+	texturefile = "gfx/interface/goals/zahid_na_garatuy.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_crimea_referenduum"
+	texturefile = "gfx/interface/goals/crimea_referenduum.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_invite_pribaltica"
+	texturefile = "gfx/interface/goals/invite_pribaltica.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_domovlenist_z_cherkvou"
+	texturefile = "gfx/interface/goals/domovlenist_z_cherkvou.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_svoboda_religuy"
+	texturefile = "gfx/interface/goals/svoboda_religuy.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_sbu"
+	texturefile = "gfx/interface/goals/sbu.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_democratic_reforms"
+	texturefile = "gfx/interface/goals/UKR_democratic_reforms.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_vilna_kraina"
+	texturefile = "gfx/interface/goals/vilna_kraina.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_kontrol_nad_morem"
+	texturefile = "gfx/interface/goals/kontrol_nad_morem.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_democratic_army"
+	texturefile = "gfx/interface/goals/democratic_army.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_povstanie_v_grusiu"
+	texturefile = "gfx/interface/goals/povstanie_v_grusiu.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_sche_ne_vmerla"
+	texturefile = "gfx/interface/goals/sche_ne_vmerla.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_mobilization"
+	texturefile = "gfx/interface/goals/UKR_mobilization.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ukr_industria"
+	texturefile = "gfx/interface/goals/focus_ukr_industria.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_vasilkyv_zavod"
+	texturefile = "gfx/interface/goals/vasilkyv_zavod.dds"			
+	}
+    SpriteType = {
+	name = "GFX_goal_reforma_osvity"
+	texturefile = "gfx/interface/goals/reforma_osvity.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_defense_odessa"
+	texturefile = "gfx/interface/goals/defense_odessa.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_defend_hudgehog"
+	texturefile = "gfx/interface/goals/defend_hudgehog.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_defense_of_the_lands"
+	texturefile = "gfx/interface/goals/defense_of_the_lands.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_nested_fortifications"
+	texturefile = "gfx/interface/goals/nested_fortifications.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_generic_fortification"
+	texturefile = "gfx/interface/goals/generic_fortification.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_generic_plan"
+	texturefile = "gfx/interface/goals/generic_plan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_city_chain_forts"
+	texturefile = "gfx/interface/goals/city_chain_forts.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_plan_fort"
+	texturefile = "gfx/interface/goals/plan_fort.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_suhoputnaya"
+	texturefile = "gfx/interface/goals/UKR_suhoputnaya.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_kishinivska_zystrich"
+	texturefile = "gfx/interface/goals/kishinivska_zystrich.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_doctrina"
+	texturefile = "gfx/interface/goals/UKR_doctrina.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_suchasna_voina"
+	texturefile = "gfx/interface/goals/suchasna_voina.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_svedsky_pidshipniky"
+	texturefile = "gfx/interface/goals/svedsky_pidshipniky.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Spa_War_experience"
+	texturefile = "gfx/interface/goals/Spa_War_experience.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_TakeCare_Supply"
+	texturefile = "gfx/interface/goals/TakeCare_Supply.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Total_Mobiz"
+	texturefile = "gfx/interface/goals/Total_Mobiz.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Fin_War_experience"
+	texturefile = "gfx/interface/goals/Fin_War_experience.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_Gucili_Use"
+	texturefile = "gfx/interface/goals/Gucili_Use.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_People_War"
+	texturefile = "gfx/interface/goals/People_War.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_radio_development"
+	texturefile = "gfx/interface/goals/radio_development.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_market_liberalisation"
+	texturefile = "gfx/interface/goals/market_liberalisation.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fortify_finland"
+	texturefile = "gfx/interface/goals/fortify_finland.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_market_liberalisation"
+	texturefile = "gfx/interface/goals/market_liberalisation.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_army_mobilization"
+	texturefile = "gfx/interface/goals/army_mobilization.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_modernizing_the_cavalry"
+	texturefile = "gfx/interface/goals/modernizing_the_cavalry.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_small_plane"
+	texturefile = "gfx/interface/goals/small_plane.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_middle_plane"
+	texturefile = "gfx/interface/goals/middle_plane.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_big_plane"
+	texturefile = "gfx/interface/goals/big_plane.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_raids_on_oligarhs"
+	texturefile = "gfx/interface/goals/raids_on_oligarhs.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_sponsore_small_buisnes"
+	texturefile = "gfx/interface/goals/sponsore_small_buisnes.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_ukr_defence"
+	texturefile = "gfx/interface/goals/ukr_defence.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_allow_pak"
+	texturefile = "gfx/interface/goals/allow_pak.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_first_tanks"
+	texturefile = "gfx/interface/goals/first_tanks.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_ban_oligarhs"
+	texturefile = "gfx/interface/goals/ban_oligarhs.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_large_fleet"
+	texturefile = "gfx/interface/goals/large_fleet.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_navy_grants"
+	texturefile = "gfx/interface/goals/navy_grants.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_ROM_UKR_alliance"
+	texturefile = "gfx/interface/goals/ROM_UKR_alliance.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_invite_yugoslavia"
+	texturefile = "gfx/interface/goals/focus_invite_yugoslavia.dds"			
+	}SpriteType = {
+	name = "GFX_goal_focus_generic_army_tanks"
+	texturefile = "gfx/interface/goals/focus_generic_army_tanks.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_generic_tank_air_support"
+	texturefile = "gfx/interface/goals/focus_generic_tank_air_support.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_goal_generic_navy_submarine"
+	texturefile = "gfx/interface/goals/goal_generic_navy_submarine.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_generic_military_dictatorship"
+	texturefile = "gfx/interface/goals/focus_generic_military_dictatorship.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_generic_national_security"
+	texturefile = "gfx/interface/goals/focus_generic_national_security.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_Army"
+	texturefile = "gfx/interface/goals/UKR_Army.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_UKR_navy"
+	texturefile = "gfx/interface/goals/UKR_navy.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_navigate_the_seas"
+	texturefile = "gfx/interface/goals/navigate_the_seas.dds"			
+	}
+	
+}

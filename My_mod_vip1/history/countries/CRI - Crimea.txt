@@ -1,0 +1,62 @@
+﻿oob = "CRI_1936"
+capital = 1
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.6
+set_convoys = 0
+
+
+add_ideas = {
+	disarmed_nation
+	low_economic_mobilisation
+}
+
+	recruit_character = dzhaferseydamet
+	recruit_character = aleksandrahmatovich
+
+#Starting tech
+set_technology = {
+}
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "CRI_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.7.27"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 71
+	fascism = 2
+	communism = 7
+	neutrality = 10
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = romanchelibichan
+recruit_character = petrvrangel
+recruit_character = shuralardzhumhurieti
+recruit_character = mustafachakmak
+
+recruit_character = haysms_lyabche
+recruit_character = suleymanoleksadrovich
+recruit_character = izmailmuftiyzade
+recruit_character = vrangel
+recruit_character = hasbek_luuzodn_
+

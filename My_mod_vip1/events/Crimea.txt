@@ -1,0 +1,39 @@
+﻿add_namespace = crimea
+
+country_event = {
+	id = crimea.1
+	title = crimea.1.t
+	desc = crimea.1.d
+	picture = GFX_event_ukr_mizmorja
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = crimea.1.a
+            ai_chance = {
+			factor = 95
+		}
+		UKR = {
+			add_state_core = 196
+			transfer_state = 196
+			add_state_core = 957
+			transfer_state = 957
+			add_state_core = 137
+			transfer_state = 137
+			add_state_core = 954
+			transfer_state = 954
+			add_state_core = 956
+			transfer_state = 956
+			add_state_core = 955
+			transfer_state = 955
+			add_state_core = 972
+			transfer_state = 972
+		}
+			}
+			option = {
+		name = crimea.1.b
+            ai_chance = {
+			factor = 5
+		}
+			}
+}

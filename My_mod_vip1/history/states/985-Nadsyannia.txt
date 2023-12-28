@@ -1,0 +1,26 @@
+state=
+{
+	id=985
+	name="STATE_985"
+	manpower = 487800
+	
+	state_category = rural
+	
+	history= {
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			3707 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = POL
+	}
+	provinces=
+	{
+          6580 13283}
+
+	local_supplies=4.0 
+}

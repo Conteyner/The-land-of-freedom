@@ -1,0 +1,33 @@
+characters = {	dzhaferseydamet = {
+		name = dzhaferseydamet
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/CRI/dzGSnvIl-551583.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = dzhaferseydamet
+			allowed = {
+				original_tag = CRI
+			}
+			traits = { dealbroker}
+		}
+	}
+	aleksandrahmatovich = {
+		name = aleksandrahmatovich
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/CRI/RdnjYoWu-551591.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = aleksandrahmatovich
+			allowed = {
+				original_tag = CRI
+			}
+			traits = { stout_defender}
+		}
+	}
+}

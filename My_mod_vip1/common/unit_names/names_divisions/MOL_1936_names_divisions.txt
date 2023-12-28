@@ -1,0 +1,16 @@
+MOL_DIV_0_0 = {	name = "Example Division"
+	for_countries = { MOL }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Example Division"
+}
+MOL_DIV_1_0 = {	name = "Moldavian Army"
+	for_countries = { MOL }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Moldavian Army"
+}

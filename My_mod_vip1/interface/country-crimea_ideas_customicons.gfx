@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Джафер Сейдамет
+	SpriteType = { 
+		name = "dzGSnvIl-551583"
+		texturefile = "gfx/interface/ideas/CRI/dzGSnvIl-551583.dds"
+	}
+
+	##Icon For: Александр Ахматович
+	SpriteType = { 
+		name = "RdnjYoWu-551591"
+		texturefile = "gfx/interface/ideas/CRI/RdnjYoWu-551591.dds"
+	}
+
+ 
+ }

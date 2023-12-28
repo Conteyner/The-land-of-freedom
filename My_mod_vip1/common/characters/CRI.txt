@@ -1,0 +1,169 @@
+characters = {
+#Create country leader - Мустафа Чакмак
+mustafachakmak = {
+	name = mustafachakmak
+	portraits = {
+		civilian = {
+			#Custom image for Мустафа Чакмак
+			large = "/gfx/leaders/CRI/HFRwPSia-551574.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = falangism
+		traits = {  }
+	}
+}
+
+#Create country leader - Шуралар Джумхуриети
+shuralardzhumhurieti = {
+	name = shuralardzhumhurieti
+	portraits = {
+		civilian = {
+			#Custom image for Шуралар Джумхуриети
+			large = "/gfx/leaders/CRI/CIkFSmaP-9528.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {  }
+	}
+}
+
+#Create country leader - Петр Врангель
+petrvrangel = {
+	name = petrvrangel
+	portraits = {
+		civilian = {
+			#Custom image for Петр Врангель
+			large = "/gfx/leaders/CRI/xvckytTR-550942.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  warmonger el_jefe_maximo anti_communist }
+	}
+}
+
+#Create country leader - Роман Челибичан
+romanchelibichan = {
+	name = romanchelibichan
+	portraits = {
+		civilian = {
+			#Custom image for Роман Челибичан
+			large = "/gfx/leaders/CRI/KfeYqHAU-550904.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  humble chamberlain_appeaser }
+	}
+}
+
+#Create military leader - Haysms Lyabche
+	haysms_lyabche = {
+		name = "haysms_lyabche"
+		portraits = {
+			army = {
+				#Custom images for Haysms Lyabche
+				large = "/gfx/leaders/CRI/haysms_lyabche-9482.dds"
+				small = "/gfx/interface/ideas/CRI/haysms_lyabche-9482.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1261079410
+		}
+	}
+
+#Create military leader - Сулейман Олексадрович
+	suleymanoleksadrovich = {
+		name = "suleymanoleksadrovich"
+		portraits = {
+			army = {
+				#Custom images for Сулейман Олексадрович
+				large = "/gfx/leaders/CRI/suleymanoleksadrovich-551580.dds"
+				small = "/gfx/interface/ideas/CRI/suleymanoleksadrovich-551580.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1261079411
+		}
+	}
+
+#Create military leader - Измаил Муфтий-Заде
+	izmailmuftiyzade = {
+		name = "izmailmuftiyzade"
+		portraits = {
+			army = {
+				#Custom images for Измаил Муфтий-Заде
+				large = "/gfx/leaders/CRI/izmailmuftiyzade-551596.dds"
+				small = "/gfx/interface/ideas/CRI/izmailmuftiyzade-551596.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1261079412
+		}
+	}
+
+#Create military leader - Врангель
+	vrangel = {
+		name = "vrangel"
+		portraits = {
+			army = {
+				#Custom images for Врангель
+				large = "/gfx/leaders/CRI/vrangel-551602.dds"
+				small = "/gfx/interface/ideas/CRI/vrangel-551602.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1261079413
+		}
+	}
+
+	hasbek_luuzodn_ = {
+		name = "hasbek_luuzodn_"
+		portraits = {
+			army = {
+				#Custom images for Hasbek Luuzodn 
+				large = "/gfx/leaders/CRI/hasbek_luuzodn_-9456.dds"
+				small = "/gfx/interface/ideas/CRI/hasbek_luuzodn_-9456.dds"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 3261079410
+		}
+	}
+}

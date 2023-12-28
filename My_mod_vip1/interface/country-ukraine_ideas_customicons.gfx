@@ -1,0 +1,63 @@
+spriteTypes = { 
+	SpriteType = { 
+		name = "GFX_ukr_mikola_porsh"
+		texturefile = "gfx/interface/ideas/UKR/ukr_mikola_porsh.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukr_viktor_klimenko"
+		texturefile = "gfx/interface/ideas/UKR/ukr_viktor_klimenko.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukr_ivan_poltavets"
+		texturefile = "gfx/interface/ideas/UKR/ukr_ivan_poltavets.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukr_mikola_leontovich"
+		texturefile = "gfx/interface/ideas/UKR/ukr_mikola_leontovich.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_kost_levickii"
+		texturefile = "gfx/interface/ideas/UKR/UKR_kost_levickii.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_grigorii_potrovskii"
+		texturefile = "gfx/interface/ideas/UKR/UKR_grigorii_potrovskii.dds"
+	}
+    SpriteType = { 
+		name = "GFX_UKR_dmytro_doncov"
+		texturefile = "gfx/interface/ideas/UKR/UKR_dmytro_doncov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_mykola_chobotiv"
+		texturefile = "gfx/interface/ideas/UKR/UKR_mykola_chobotiv.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_myhailo_tereshenko"
+		texturefile = "gfx/interface/ideas/UKR/UKR_myhailo_tereshenko.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_mykola_chobotiv"
+		texturefile = "gfx/interface/ideas/UKR/UKR_mykola_chobotiv.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_pavlo_skoropadskii"
+		texturefile = "gfx/interface/ideas/UKR/UKR_pavlo_skoropadskii.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_mikola_kakurin"
+		texturefile = "gfx/interface/ideas/UKR/UKR_mikola_kakurin.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_vasyl_chuchupaka_small"
+		texturefile = "gfx/interface/ideas/UKR/UKR_vasyl_chuchupaka.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_vasyl_chuchupaka_big"
+		texturefile = "gfx\leaders\UKR\UKR_vasyl_chuchupaka.dds"
+	}
+	SpriteType = { 
+		name = "GFX_UKR_mikola_kakurin"
+		texturefile = "gfx/interface/ideas/UKR/UKR_mikola_kakurin.dds"
+	}
+	
+ }

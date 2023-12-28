@@ -1,0 +1,50 @@
+#Create units
+division_template = {
+	name = "Example Division"
+	division_names_group = "MOL_DIV_0_0"
+
+}
+division_template = {
+	name = "Moldavian Army"
+	division_names_group = "MOL_DIV_1_0"
+	regiments = {
+		infantry = { x = 0 y = 0}
+	}
+	support = {
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st Moldavian Army"
+		location = 414
+		division_template = "Moldavian Army"
+	}
+	division= {
+		name = "2nd Moldavian Army"
+		location = 414
+		division_template = "Moldavian Army"
+	}
+	division= {
+		name = "3rd Moldavian Army"
+		location = 414
+		division_template = "Moldavian Army"
+	}
+	division= {
+		name = "4th Moldavian Army"
+		location = 565
+		division_template = "Moldavian Army"
+	}
+	division= {
+		name = "5th Moldavian Army"
+		location = 565
+		division_template = "Moldavian Army"
+	}
+	division= {
+		name = "6th Moldavian Army"
+		location = 9683
+		division_template = "Moldavian Army"
+	}
+}

@@ -1,0 +1,219 @@
+characters = {	
+
+UKR_mikola_porsh = {
+		name = UKR_mikola_porsh
+		portraits = {
+			army = {
+			small = "GFX_ukr_mikola_porsh"
+			}
+		}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_mikola_porsh
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { economist }
+			cost = 75
+		}
+	}
+	UKR_viktor_klimenko = {
+		name = UKR_viktor_klimenko
+		portraits = {
+			army = {
+			small = "GFX_ukr_viktor_klimenko"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = high_command
+			idea_token = UKR_viktor_klimenko
+			allowed = {
+				original_tag = UKR
+				has_government = democratic
+			}
+			traits = { UKR_serdyk }
+		}
+	}
+	UKR_ivan_poltavets = {
+		name = UKR_ivan_poltavets
+		portraits = {
+			army = {
+			small = "GFX_ukr_ivan_poltavets"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = high_command
+			idea_token = UKR_ivan_poltavets
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { UKR_free_cossack }
+			cost = 175
+		}
+	}
+	UKR_mikola_leontovich = {
+		name = UKR_mikola_leontovich
+		portraits = {
+			army = {
+			small = "GFX_ukr_mikola_leontovich"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+				has_government = democratic
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_mikola_leontovich
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { UKR_culture_minister }
+			cost = 100
+		}
+	}
+		UKR_kost_levickii = {
+		name = UKR_kost_levickii
+		portraits = {
+			army = {
+			small = "GFX_UKR_kost_levickii"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_kost_levickii
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { democratic_reformer }
+			cost = 100
+		}
+	}
+	UKR_grigorii_potrovskii = {
+		name = UKR_grigorii_potrovskii
+		portraits = {
+			army = {
+			small = "GFX_UKR_grigorii_potrovskii"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_grigorii_potrovskii
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { communist_revolutionary }
+			cost = 100
+		}
+	}
+	UKR_dmytro_doncov = {
+		name = UKR_dmytro_doncov
+		portraits = {
+			army = {
+			small = "GFX_UKR_dmytro_doncov"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_dmytro_doncov
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { UKR_nationalist }
+			cost = 100
+		}
+	}
+	UKR_mykola_chobotiv = {
+		name = UKR_mykola_chobotiv
+		portraits = {
+			army = {
+			small = "GFX_UKR_mykola_chobotiv"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_mykola_chobotiv
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { head_of_intelligence }
+			cost = 100
+		}
+	}
+	UKR_myhailo_tereshenko = {
+		name = UKR_myhailo_tereshenko
+		portraits = {
+			army = {
+			small = "GFX_UKR_myhailo_tereshenko"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_myhailo_tereshenko
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { captain_of_industry }
+		}
+	}
+	UKR_myhailo_kakurin = {
+		name = UKR_myhailo_kakurin
+		portraits = {
+			army = {
+			small = "GFX_UKR_mikola_kakurin"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = political_advisor
+			idea_token = UKR_myhailo_kakurin
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { fortification_engineer }
+		}
+	}
+	UKR_vasyl_chuchupaka {
+		name = UKR_vasyl_chuchupaka
+		portraits = {   
+			army = {
+			large = "GFX_UKR_vasyl_chuchupaka_big"
+			small = "GFX_UKR_vasyl_chuchupaka_small"
+			}
+		}
+		allowed = {
+				original_tag = UKR
+			}
+		advisor = {
+		    slot = high_command
+			idea_token = UKR_vasyl_chuchupaka
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { UKR_holodnii_yar_leader }
+		}
+	}
+}

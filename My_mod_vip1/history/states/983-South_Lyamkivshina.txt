@@ -1,0 +1,26 @@
+state=
+{
+	id=983
+	name="STATE_983"
+	manpower = 96800
+	
+	state_category = pastoral
+	
+	history= {
+		add_core_of = CZE
+		owner = CZE
+		victory_points = {
+			3707 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = CZE
+	}
+	provinces=
+	{
+          13280 13279}
+
+	local_supplies=4.0 
+}

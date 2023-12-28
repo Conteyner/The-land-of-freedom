@@ -1,0 +1,26 @@
+state=
+{
+	id=988
+	name="STATE_988"
+	manpower = 30365
+	
+	state_category = rural
+	
+	history= {
+		add_core_of = BLR
+		owner = BLR
+		victory_points = {
+			13286 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UKR
+                add_core_of = SOV
+	}
+	provinces=
+	{
+          9249 3507 13286 13287 13289}
+
+	local_supplies=4.0 
+}

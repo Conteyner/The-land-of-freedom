@@ -1,0 +1,28 @@
+﻿add_namespace = moldova
+
+country_event = {
+	id = moldova.1
+	title = moldova.1.t
+	desc = moldova.1.d
+	picture = GFX_event_ukr_mizmorja
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = moldova.1.a
+            ai_chance = {
+			factor = 100
+		}
+		UKR = {
+			add_state_core = 981
+			transfer_state = 981
+		}
+		add_political_power = 25
+			}
+			option = {
+		name = moldova.1.b
+            ai_chance = {
+			factor = 0
+		}
+			}
+}

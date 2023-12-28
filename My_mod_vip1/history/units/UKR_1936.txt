@@ -1,0 +1,155 @@
+#Create units
+division_template = {
+	name = "Garnison"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 1 y = 0}
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1} 
+	}
+	priority = 0
+	division_names_group = "UKR_DIV_0_0"
+
+}
+division_template = {
+	name = "Cossack Division"
+	division_names_group = "UKR_DIV_1_0"
+	regiments = {
+		cavalry = { x = 0 y = 0}
+		cavalry = { x = 1 y = 0}
+		cavalry = { x = 0 y = 1}
+		cavalry = { x = 1 y = 1}
+	}
+	support = {
+		recon = { x = 0 y = 0}
+	}
+
+}
+division_template = {
+	name = "Ukrainian National Army"
+	division_names_group = "UKR_DIV_2_0"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 1 y = 1}
+		infantry = { x = 0 y = 2}
+		infantry = { x = 1 y = 2}
+	}
+	support = {
+	recon = { x = 0 y = 0}
+	engineer = { x = 0 y = 1} 
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st Cossack polk"
+		location = 11464
+		division_template = "Cossack Division"
+	}
+	division= {
+		name = "2nd Cossack polk"
+		location = 3457
+		division_template = "Cossack Division"
+	}
+	division= {
+		name = "3th Cossack polk"
+		location = 462
+		division_template = "Cossack Division"
+	}
+	division= {
+		name = "4th Cossack polk"
+		location = 9554
+		division_template = "Cossack Division"
+	}
+	division= {
+		name = "5th Cossack polk"
+		location = 11670
+		division_template = "Cossack Division"
+	}
+	division= {
+		name = "1th Ukrainian National Army division"
+		location = 6480
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "2th Ukrainian National Army"
+		location = 11670
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "3th Ukrainian National Army division"
+		location = 11670
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "4th Ukrainian National Army division"
+		location = 525
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "5th Ukrainian National Army division"
+		location = 525
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "6th Ukrainian National Army division"
+		location = 13300
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "7th Ukrainian National Army division"
+		location = 6593
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "8th Ukrainian National Army division"
+		location = 11437
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "9th Ukrainian National Army division"
+		location = 11437
+		division_template = "Ukrainian National Army"
+	}
+	division= {
+		name = "10th Ukrainian National Army division"
+		location = 13334
+		division_template = "Ukrainian National Army"
+	}
+		division= {
+		name = "Kievski garnison"
+		location = 525
+		division_template = "Garnison"
+	}
+			division= {
+		name = "Odesski garnison"
+		location = 11670
+		division_template = "Garnison"
+	}
+			division= {
+		name = "Vinnitski garnison"
+		location = 476
+		division_template = "Garnison"
+	}
+			division= {
+		name = "Dniprovski garnison"
+		location = 11437
+		division_template = "Garnison"
+	}
+			division= {
+		name = "Mikolaivski garnison"
+		location = 11546
+		division_template = "Garnison"
+	}
+			division= {
+		name = "Zitomirski garnison"
+		location = 6593
+		division_template = "Garnison"
+	}
+}

@@ -1,0 +1,294 @@
+characters = {
+#Create country leader - Хрущев
+volodymyr_vinnichenko = {
+	name = volodymyr_vinnichenko
+	portraits = {
+		civilian = {
+			#Custom image for Хрущев
+			large = "/gfx/leaders/UKR/jdFAxDhl-548831.dds"
+		}
+	}
+	country_leader={
+			ideology = stalinism
+			expire="1965.1.1.1"
+		}
+}
+
+#Create country leader - Евген Коновалец
+konovalec = {
+	name = konovalec
+	portraits = {
+		civilian = {
+			#Custom image for Евген Коновалец
+			large = "/gfx/leaders/UKR/gieBkAGd-548837.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {  }
+	}
+}
+
+#Create country leader - Украинская Центральная Рада
+ukrainskayacentralnayarada = {
+	name = ukrainskayacentralnayarada
+	portraits = {
+		civilian = {
+			#Custom image for Украинская Центральная Рада
+			large = "/gfx/leaders/UKR/brJUyLun-548833.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+	}
+}
+
+#Create military leader - Павел Скорпадский "Гетман"
+	getmanpavelskorpadskiy = {
+		name = "getmanpavelskorpadskiy"
+		portraits = {
+			army = {
+				#Custom images for "Гетман" Павел Скорпадский
+				large = "/gfx/leaders/UKR/getmanpavelskorpadskiy-549059.dds"
+				small = "GFX_UKR_pavlo_skoropadskii"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1151075240
+		}
+		advisor = {
+		    slot = army_chief
+			idea_token = getmanpavelskorpadskiy
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { army_chief_defensive_2 }
+		}
+	}
+
+#Create military leader - Евгений Коновалец
+	evgeniykonovalec = {
+		name = "evgeniykonovalec"
+		portraits = {
+			army = {
+				#Custom images for Евгений Коновалец
+				large = "/gfx/leaders/UKR/evgeniykonovalec-549092.dds"
+				small = "/gfx/interface/ideas/UKR/evgeniykonovalec-549092.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 1151075241
+		}
+	}
+
+#Create military leader - Болбочан
+	bolbochan = {
+		name = "bolbochan"
+		portraits = {
+			army = {
+				#Custom images for Болбочан
+				large = "/gfx/leaders/UKR/bolbochan-549098.dds"
+				small = "/gfx/interface/ideas/UKR/ukr_petro_bolbochan.dds"
+			}
+		}
+		field_marshal = {
+			traits = {   }
+			skill = 1
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
+		legacy_id = 1151075242
+		}
+		advisor = {
+		    slot = army_chief
+			idea_token = UKR_bolbochan
+			allowed = {
+				original_tag = UKR
+			}
+			traits = { UKR_tactic_genious }
+			cost = 225
+		}
+	}
+
+#Create military leader - Тютюнник
+	tyutyunnik = {
+		name = "tyutyunnik"
+		portraits = {
+			army = {
+				#Custom images for Тютюнник
+				large = "/gfx/leaders/UKR/tyutyunnik-549100.dds"
+				small = "/gfx/interface/ideas/UKR/tyutyunnik-549100.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1151075243
+		}
+	}
+
+#Create military leader - Присовский
+	prisovskiy = {
+		name = "prisovskiy"
+		portraits = {
+			army = {
+				#Custom images for Присовский
+				large = "/gfx/leaders/UKR/prisovskiy-549104.dds"
+				small = "/gfx/interface/ideas/UKR/prisovskiy-549104.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1151075244
+		}
+	}
+
+#Create military leader - Волох
+	voloh = {
+		name = "voloh"
+		portraits = {
+			army = {
+				#Custom images for Волох
+				large = "/gfx/leaders/UKR/voloh-549111.dds"
+				small = "/gfx/interface/ideas/UKR/voloh-549111.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		legacy_id = 1151075245
+		}
+	}
+
+#Create military leader - Яков Сафонов
+	yakovsafonov = {
+		name = "yakovsafonov"
+		portraits = {
+			army = {
+				#Custom images for Яков Сафонов
+				large = "/gfx/leaders/UKR/yakovsafonov-121966.dds"
+				small = "/gfx/interface/ideas/UKR/yakovsafonov-121966.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 1151075246
+		}
+	}
+
+#Create military leader - Никофор Александрович
+	nikoforaleksandrovich = {
+		name = "nikoforaleksandrovich"
+		portraits = {
+			army = {
+				#Custom images for Никофор Александрович
+				large = "/gfx/leaders/UKR/nikoforaleksandrovich-9481.dds"
+				small = "/gfx/interface/ideas/UKR/nikoforaleksandrovich-9481.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 10
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		legacy_id = 1151075247
+		}
+	}
+
+#Create military leader - Удовиченко
+	udovichenko = {
+		name = "udovichenko"
+		portraits = {
+			army = {
+				#Custom images for Удовиченко
+				large = "/gfx/leaders/UKR/udovichenko-549123.dds"
+				small = "/gfx/interface/ideas/UKR/udovichenko-549123.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1151075248
+		}
+	}
+
+#Create military leader - Алмазов
+	almazov = {
+		name = "almazov"
+		portraits = {
+			army = {
+				#Custom images for Алмазов
+				large = "/gfx/leaders/UKR/almazov-549126.dds"
+				small = "/gfx/interface/ideas/UKR/almazov-549126.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1151075249
+		}
+	}
+
+	alexey_krechovskyu = {
+		name = "alexey_krechovskyu"
+		portraits = {
+			army = {
+				#Custom images for Alexey Krechovskyu
+				large = "/gfx/leaders/UKR/alexey_krechovskyu-9456.dds"
+				small = "/gfx/interface/ideas/UKR/alexey_krechovskyu-9456.dds"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 3151075240
+		}
+	}
+}

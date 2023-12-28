@@ -1,0 +1,27 @@
+state={
+	id=959
+	name="STATE_959"
+	manpower = 50600
+	
+	state_category = rural
+	
+	history={
+		owner = ROM
+		victory_points = {
+			13323 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ROM
+		add_core_of = ROM
+
+		
+	}
+
+	provinces={
+		
+	746 9704 13322 13323 }
+
+	local_supplies=0.0 
+}

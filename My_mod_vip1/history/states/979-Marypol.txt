@@ -1,0 +1,29 @@
+
+state={
+	id=979
+	name="STATE_979"
+	manpower = 3767336
+	
+	state_category = city
+
+	history={
+		owner = MHN
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		victory_points = {
+			3421 10
+		}
+victory_points = {
+			3449 11
+		}
+		add_core_of = MHN
+		add_core_of = UKR
+	}
+
+	provinces={
+		6776 3449 3421 6420
+	}
+
+	local_supplies=10.0 
+}

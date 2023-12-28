@@ -1,0 +1,2407 @@
+focus_tree = {
+	id = UKR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	default = no
+	focus = {
+		id = UKR_restore_rada
+		icon = GFX_goal_form_rada
+		cost = 10.00
+		x = 75
+		y = -1
+			completion_reward = {
+					add_political_power = 120
+					country_event = ukraine.1
+					add_ideas = UKR_free_business_1
+				}
+
+	}
+	focus = {
+		id = UKR_industry
+		icon = GFX_goal_focus_ukr_industria
+		cost = 10.00
+		x = 10
+		y = 0
+			completion_reward = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_plan_fort
+		icon = GFX_goal_plan_fort
+		cost = 10.00
+		x = 25
+		y = 0
+
+	}
+	focus = {
+		id = UKR_army_doctrine
+		icon = GFX_goal_UKR_Army
+		cost = 10.00
+		x = 43
+		y = 0
+		completion_reward = {
+			air_experience = 150
+			army_experience = 150
+			navy_experience = 150
+		}
+
+	}
+	focus = {
+		id = UKR_military_industry
+		icon = GFX_focus_generic_tank_production
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_industry
+		}
+		x = 5
+		y = 1
+			completion_reward = {
+					202 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_tank_zavod
+		icon = GFX_goal_darnitski_tanki
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_military_industry
+		}
+		x = 3
+		y = 2
+			completion_reward = {
+					202 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_militarise_kraz
+		icon = GFX_goal_kraz
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_tank_zavod
+		}
+		x = 3
+		y = 3
+			completion_reward = {
+					add_tech_bonus = {
+							name = POL_modernising_the_cavalry
+							bonus = 0.5
+							uses = 3
+							category = motorized_equipment
+							975 = {
+									add_building_construction = {
+											type = arms_factory
+											level = 1
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_odessa_port
+		icon = GFX_goal_navigate_the_seas
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_military_industry
+		}
+		x = 5
+		y = 2
+			completion_reward = {
+					navy_experience = 25
+					192 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_teach_sailors
+		icon = GFX_focus_generic_naval_discipline
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_odessa_port
+		}
+		x = 5
+		y = 3
+			completion_reward = {
+					navy_experience = 50
+				}
+
+	}
+	focus = {
+		id = UKR_zit_peh_zav
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_military_industry
+		}
+		x = 7
+		y = 2
+			completion_reward = {
+					201 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					add_ideas = UKR_zitomir_zavod
+				}
+
+	}
+	focus = {
+		id = UKR_restore_mils
+		icon = GFX_r56_goal_generic_barrack_industry
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_zit_peh_zav
+		}
+		x = 7
+		y = 3
+			completion_reward = {
+					975 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					953 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					976 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					974 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_oboron_prom
+		icon = GFX_goal_oboron_prom
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_restore_mils
+		}
+		prerequisite = {
+			focus = UKR_teach_sailors
+		}
+		prerequisite = {
+			focus = UKR_militarise_kraz
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = UKR_fight_corruption
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 7.00
+		prerequisite = {
+			focus = UKR_industry
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = UKR_fight_mil_corruption
+		icon = GFX_goal_focus_generic_military_dictatorship
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_fight_corruption
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = UKR_clear_parlament
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_fight_corruption
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = UKR_search_politicians
+		icon = GFX_goal_focus_generic_national_security
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_clear_parlament
+			focus = UKR_fight_mil_corruption
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = UKR_anticorruption_buro
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_clear_parlament
+			focus = UKR_fight_mil_corruption
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = UKR_form_sbu
+		icon = GFX_goal_sbu
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_anticorruption_buro
+		}
+		prerequisite = {
+			focus = UKR_search_politicians
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = UKR_civilian_industry
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_industry
+		}
+		x = 15
+		y = 1
+			add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+	}
+	focus = {
+		id = UKR_finanse_minbud
+		icon = GFX_goal_minbud
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_civilian_industry
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = UKR_roads
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_finanse_minbud
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = UKR_black_see
+		icon = GFX_focus_generic_merchant_fleet
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_civilian_industry
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = UKR_develop_odessa
+		icon = GFX_goal_navigate_the_seas
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_black_see
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = UKR_kiev_misk_bud
+		icon = GFX_goal_kiev_misk_bud
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_civilian_industry
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = UKR_vasylkiv_factory
+		icon = GFX_vasilkyv_zavod
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_kiev_misk_bud
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = UKR_new_education
+		icon = GFX_goal_reforma_osvity
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_vasylkiv_factory
+		}
+		prerequisite = {
+			focus = UKR_develop_odessa
+		}
+		prerequisite = {
+			focus = UKR_roads
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = UKR_defend_west
+		icon = GFX_goal_generic_defence
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_plan_fort
+		}
+		available = {
+		UKR = {
+		has_full_control_of_state = 973
+		}
+		}
+		x = 21
+		y = 1
+completion_reward = {
+			973 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3562
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 13277
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3483
+							instant_build = yes
+						}
+				  }
+ }
+	      }
+	focus = {
+		id = UKR_fortify_vinnica
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_defend_west
+		}
+		available = {
+		UKR = {
+		has_full_control_of_state = 198
+		}
+		}
+		x = 20
+		y = 2
+completion_reward = {
+			198 = {
+						add_building_construction = {
+							type = bunker
+							level = 6
+							province = 476
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 6455
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 9423
+							instant_build = yes
+						}
+				  }
+ }
+	}
+	focus = {
+		id = UKR_bolbochan_line
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_defend_west
+		}
+		available = {
+		UKR = {
+		has_full_control_of_state = 973
+		has_full_control_of_state = 974
+		has_full_control_of_state = 970
+		       }
+		}
+		x = 22
+		y = 2
+completion_reward = {
+	973 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3562
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 13277
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3483
+							instant_build = yes
+						}
+				  }
+				  970 = {
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 6579
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 535
+							instant_build = yes
+						}
+				  }
+				  974 = {
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 6557
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 6435
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 6520
+							instant_build = yes
+						}
+				  }
+ }
+	}
+	focus = {
+		id = UKR_ternopol_division
+		icon = GFX_focus_generic_limited_social_mobilization
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_bolbochan_line
+			focus = UKR_fortify_vinnica
+		}
+		x = 20
+		y = 3
+completion_reward = {
+           add_manpower = 3000
+		   UKR = {
+							add_equipment_to_stockpile = {
+									type = infantry_equipment_1
+									amount = 1000
+									producer = UKR
+								}
+							add_equipment_to_stockpile = {
+									type = support_equipment
+									amount = 250
+									producer = UKR
+								}
+					}
+}
+	}
+	focus = {
+		id = UKR_fortify_podillya
+		icon = GFX_goal_nested_fortifications
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_bolbochan_line
+			focus = UKR_fortify_vinnica
+		}
+		available = {
+		UKR = {
+		has_full_control_of_state = 192
+		has_full_control_of_state = 834
+		       }
+		}
+		x = 22
+		y = 3
+    completion_reward = {
+192 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 11670
+							instant_build = yes
+						}
+				  }
+				  834 = {
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 741
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 754
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 9576
+							instant_build = yes
+						}
+				  }
+   }
+	}
+	focus = {
+		id = UKR_fortecya_lviv
+		icon = GFX_goal_defense_of_the_lands
+		cost = 3.00
+		prerequisite = {
+			focus = UKR_fortify_podillya
+		}
+		prerequisite = {
+			focus = UKR_ternopol_division
+		}
+		available = {
+		UKR = {
+		has_full_control_of_state = 91
+		       }
+		}
+		x = 21
+		y = 4
+ completion_reward = {
+                 91 = {
+						add_building_construction = {
+							type = bunker
+							level = 6
+							province = 11479
+							instant_build = yes
+						}
+				  }
+		 }
+	}
+	focus = {
+		id = UKR_propaganda
+		icon = GFX_goal_generic_propaganda
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_plan_fort
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = UKR_military_propaganda
+		icon = GFX_r56_goal_generic_democratic_army
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_propaganda
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = UKR_mobilisation_law
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_propaganda
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = UKR_mobilisate_zeks
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_military_propaganda
+			focus = UKR_mobilisation_law
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = UKR_kiev_FM
+		icon = GFX_focus_SWE_radiotjanst
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_mobilisation_law
+			focus = UKR_military_propaganda
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = UKR_national_spirit
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_kiev_FM
+		}
+		prerequisite = {
+			focus = UKR_mobilisate_zeks
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = UKR_defend_east
+		icon = GFX_goal_defend_hudgehog
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_plan_fort
+		}
+		x = 29
+		y = 1
+		completion_reward = {
+			203 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 488
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 11454
+							instant_build = yes
+						}
+				  }
+			  }
+			  	202 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3494
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 525
+							instant_build = yes
+						}
+				  }
+			  }
+		  }
+	}
+	focus = {
+		id = UKR_fortify_dnipro
+		icon = GFX_goal_generic_fortification
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_defend_east
+		}
+		available = {
+				has_full_control_of_state = 202
+				has_full_control_of_state = 203
+				has_full_control_of_state = 975
+				has_full_control_of_state = 953
+
+			}
+		x = 28
+		y = 2
+completion_reward = {
+			203 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 488
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 11454
+							instant_build = yes
+						}
+				  }
+			  }
+			  	202 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 3494
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 525
+							instant_build = yes
+						}
+				  }
+			  }
+			  975 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3468
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 6478
+							instant_build = yes
+						}
+				  }
+			  }
+			  953 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 9433
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 11437
+							instant_build = yes
+						}
+				  }
+			  }
+		  }
+	}
+	focus = {
+		id = UKR_defend_nord
+		icon = GFX_goal_generic_plan
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_defend_east
+		}
+		available = {
+				has_full_control_of_state = 202
+				BLR = {
+				has_full_control_of_state = 988
+				is_subject_of = UKR		
+				}
+
+			}
+		x = 30
+		y = 2
+completion_reward = {
+			988 = {
+				if = {
+					limit = { is_controlled_by = BLR }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3507
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 13289
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 9249
+							instant_build = yes
+						}
+				  }
+			  }
+			  	202 = {
+				if = {
+					limit = { is_controlled_by = UKR }
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 13333
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 9568
+							instant_build = yes
+						}
+				  }
+			  }
+		  }
+	}
+	focus = {
+		id = UKR_fortify_herson
+		icon = GFX_goal_city_chain_forts
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_fortify_dnipro
+			focus = UKR_defend_nord
+		}
+					available = {
+				has_full_control_of_state = 996
+				}
+		x = 28
+		y = 3
+completion_reward = {
+             996 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 13334
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = bunker
+            	    	    province = 13334
+            	    	    level = 3
+            	    	    instant_build = yes
+            	    	}
+						add_building_construction = {
+							type = bunker
+							province = 11715
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+	}
+	focus = {
+		id = UKR_fortify_black_see
+		icon = GFX_goal_defense_odessa
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_defend_nord
+			focus = UKR_fortify_dnipro
+		}
+			available = {
+				has_full_control_of_state = 192
+				has_full_control_of_state = 197
+				}
+		x = 30
+		y = 3
+		completion_reward = {
+             192 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 11670
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = 3738
+            	    	    level = 1
+            	    	    instant_build = yes
+            	    	}
+						add_building_construction = {
+							type = coastal_bunker
+							province = 11703
+							level = 2
+							instant_build = yes
+						}
+					}
+					 197 = {
+						add_building_construction = {
+							type = coastal_bunker
+							province = 11546
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = 11683
+            	    	    level = 2
+            	    	    instant_build = yes
+            	    	}
+					}
+				}
+	}
+	focus = {
+		id = UKR_prisovsky_line
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_fortify_black_see
+		}
+		prerequisite = {
+			focus = UKR_fortify_herson
+		}
+		available = {
+				has_full_control_of_state = 979
+				has_full_control_of_state = 227
+				has_full_control_of_state = 221
+				has_full_control_of_state = 193
+				}
+		x = 29
+		y = 4
+		completion_reward = {
+                979 = {
+						add_building_construction = {
+							type = bunker
+							province = 3421
+							level = 4
+							instant_build = yes
+						}
+					}
+					227 = {
+						add_building_construction = {
+							type = bunker
+							province = 6474
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 3479
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 502
+							level = 4
+							instant_build = yes
+						}
+					}
+					 221 = {
+						add_building_construction = {
+							type = bunker
+							province = 6530
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 3531
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 418
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 11397
+							level = 4
+							instant_build = yes
+						}
+					}
+					225 = {
+						add_building_construction = {
+							type = bunker
+							province = 501
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 3520
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 522
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 9477
+							level = 4
+							instant_build = yes
+						}
+					}
+					193 = {
+						add_building_construction = {
+							type = bunker
+							province = 6508
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 3480
+							level = 4
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							province = 3568
+							level = 4
+							instant_build = yes
+						}
+					}
+			}
+	}
+	focus = {
+		id = UKR_wings
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_army_doctrine
+		}
+		completion_reward = {
+			air_experience = 50
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = UKR_start_building_airforces
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_wings
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = UKR_finance_ukrpovitroshlack
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_wings
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = UKR_aeroport_zulyani
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_finance_ukrpovitroshlack
+			focus = UKR_start_building_airforces
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = UKR_air_academy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_aeroport_zulyani
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = UKR_light_aviation
+		icon = GFX_goal_small_plane
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_air_academy
+		}
+		mutually_exclusive = {
+			focus = UKR_big_aviation
+			focus = UKR_middle_aviation
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = UKR_middle_aviation
+		icon = GFX_goal_middle_plane
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_air_academy
+		}
+		mutually_exclusive = {
+			focus = UKR_big_aviation
+			focus = UKR_light_aviation
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = UKR_big_aviation
+		icon = GFX_goal_big_plane
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_air_academy
+		}
+		mutually_exclusive = {
+			focus = UKR_middle_aviation
+			focus = UKR_light_aviation
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = UKR_our_own_luftwaffe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_big_aviation
+			focus = UKR_middle_aviation
+			focus = UKR_light_aviation
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = UKR_land_doctrine
+		icon = GFX_goal_UKR_suhoputnaya
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_army_doctrine
+		}
+		x = 43
+		y = 1
+		completion_reward = {
+			army_experience = 50
+		}
+
+	}
+	focus = {
+		id = UKR_modern_war
+		icon = GFX_goal_suchasna_voina
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_land_doctrine
+		}
+		mutually_exclusive = {
+			focus = UKR_cossak_doctrine
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = UKR_first_tanks
+		icon = GFX_goal_first_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_modern_war
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = UKR_start_mechanisation
+		icon = GFX_goal_modernizing_the_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_modern_war
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = UKR_buy_swedish_podshibniki
+		icon = GFX_goal_svedsky_pidshipniky
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_start_mechanisation
+			focus = UKR_first_tanks
+		}
+		x = 41
+		y = 4
+        completion_reward = {
+                     give_resource_rights = {
+						receiver = UKR
+						state = 666 
+					}
+			}
+	}
+	focus = {
+		id = UKR_cossak_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_land_doctrine
+		}
+		mutually_exclusive = {
+			focus = UKR_modern_war
+		}
+		x = 46
+		y = 2
+
+	}
+	focus = {
+		id = UKR_spanian_civil_war
+		icon = GFX_goal_Spa_War_experience
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_cossak_doctrine
+			focus = UKR_modern_war
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = UKR_finnish_war
+		icon = GFX_goal_Fin_War_experience
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_spanian_civil_war
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = UKR_increase_mobilisation_laws
+		icon = GFX_goal_Total_Mobiz
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_cossak_doctrine
+		}
+		x = 45
+		y = 3
+
+	}
+	focus = {
+		id = UKR_infantrry_equipment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_cossak_doctrine
+		}
+		x = 47
+		y = 3
+
+	}
+	focus = {
+		id = UKR_radio_technologies
+		icon = GFX_goal_radio_development
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_infantrry_equipment
+			focus = UKR_increase_mobilisation_laws
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = UKR_zygan_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_radio_technologies
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = UKR_defence
+		icon = GFX_goal_ukr_defence
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_radio_technologies
+		}
+		x = 47
+		y = 5
+
+	}
+	focus = {
+		id = UKR_use_guzuls
+		icon = GFX_goal_Gucili_Use
+		cost = 3.00
+		prerequisite = {
+			focus = UKR_defence
+			focus = UKR_zygan_army
+		}
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = UKR_folk_war
+		icon = GFX_goal_People_War
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_use_guzuls
+		}
+		x = 46
+		y = 7
+
+	}
+	focus = {
+		id = UKR_fleet
+		icon = GFX_goal_UKR_navy
+		cost = 7.00
+		prerequisite = {
+			focus = UKR_army_doctrine
+		}
+		completion_reward = {
+			navy_experience = 50
+		}
+		x = 51
+		y = 1
+
+	}
+	focus = {
+		id = UKR_restore_odessa_fleet
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_fleet
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = UKR_mikolaiv_port
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_fleet
+		}
+		completion_reward = {
+			197 = {
+				  add_building_construction = {
+					province = 11546
+					type = naval_base
+					level = 4
+				}
+			}
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = UKR_give_fleet_research_grants
+		icon = GFX_goal_navy_grants
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_restore_odessa_fleet
+			focus = UKR_mikolaiv_port
+		}
+		x = 51
+		y = 3
+
+	}
+	focus = {
+		id = UKR_develop_zmiini
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_give_fleet_research_grants
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
+		id = UKR_small_battleship_technologies
+		icon = GFX_goal_goal_generic_navy_submarine
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_develop_zmiini
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = UKR_big_battleship_technologies
+		icon = GFX_goal_large_fleet
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_develop_zmiini
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = UKR_black_see_fleete
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_big_battleship_technologies
+		}
+		prerequisite = {
+			focus = UKR_small_battleship_technologies
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = UKR_deal_with_radicals
+		icon = GFX_goal_UKR_deal_with_radicals
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_restore_rada
+		}
+		x = 75
+		y = 1
+			completion_reward = {
+					country_event = ukraine.4
+				}
+
+	}
+	focus = {
+		id = UKR_radicals_in_parlament
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_deal_with_radicals
+		}
+		x = 75
+		y = 2
+			completion_reward = {
+					country_event = ukraine.6
+				}
+
+	}
+	focus = {
+		id = UKR_elections
+		icon = GFX_goal_ukrainian_vote
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_radicals_in_parlament
+		}
+		x = 75
+		y = 3
+			completion_reward = {
+					add_political_power = 25
+					country_event = ukraine.5
+				}
+
+	}
+	focus = {
+		id = UKR_petlura
+		icon = GFX_goal_petlura_dem
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_elections
+		}
+		x = 75
+		y = 4
+			completion_reward = {
+					add_political_power = 100
+					country_event = ukraine.10
+				}
+
+	}
+	focus = {
+		id = UKR_democratic_reforms
+		icon = GFX_goal_UKR_democratic_reforms
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_petlura
+		}
+		x = 72
+		y = 5
+			completion_reward = {
+					add_political_power = 100
+					add_ideas = UKR_democratic_reforms_1
+				}
+
+	}
+	focus = {
+		id = UKR_free_religion
+		icon = GFX_goal_svoboda_religuy
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_democratic_reforms
+		}
+		x = 70
+		y = 6
+			completion_reward = {
+					country_event = ukraine.12
+					add_political_power = -50
+					add_stability = -0.05
+					add_war_support = 0.05
+				}
+
+	}
+	focus = {
+		id = UKR_radio_svoboda
+		icon = GFX_focus_SWE_radiotjanst
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_democratic_reforms
+		}
+		x = 74
+		y = 6
+			completion_reward = {
+					add_political_power = 15
+					add_war_support = 0.05
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = UKR_new_army
+		icon = GFX_focus_generic_infiltration
+		cost = 6.00
+		prerequisite = {
+			focus = UKR_petlura
+		}
+		x = 78
+		y = 5
+			completion_reward = {
+					army_experience = 15
+					add_doctrine_cost_reduction = {
+							name = land_doc_bonus
+							cost_reduction = 0.3
+							uses = 2
+							category = land_doctrine
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_national_police
+		icon = GFX_goal_police
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_new_army
+		}
+		x = 77
+		y = 6
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = UKR_usa_aid
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_new_army
+		}
+		x = 79
+		y = 6
+			completion_reward = {
+					army_experience = 15
+					UKR = {
+							add_equipment_to_stockpile = {
+									type = infantry_equipment_1
+									amount = 2000
+									producer = USA
+								}
+							add_equipment_to_stockpile = {
+									type = support_equipment
+									amount = 500
+									producer = USA
+								}
+							add_equipment_to_stockpile = {
+									type = artillery_equipment_1
+									amount = 100
+									producer = USA
+								}
+							add_equipment_to_stockpile = {
+									type = anti_air_equipment_1
+									amount = 100
+									producer = USA
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_police_divisions
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_usa_aid
+			focus = UKR_national_police
+		}
+		x = 77
+		y = 7
+
+	}
+	focus = {
+		id = UKR_britian_help
+		icon = GFX_focus_generic_british_trade
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_usa_aid
+			focus = UKR_national_police
+		}
+		x = 79
+		y = 7
+
+	}
+	focus = {
+		id = UKR_defend_democratic
+		icon = GFX_goal_democratic_army
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_britian_help
+			focus = UKR_police_divisions
+		}
+		x = 78
+		y = 8
+
+	}
+	focus = {
+		id = UKR_reform_education
+		icon = GFX_focus_generic_university_1
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_democratic_reforms
+		}
+		x = 72
+		y = 6
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UKR_democratic_reforms_1
+							add_idea = UKR_democratic_reforms_2
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_free_country
+		icon = GFX_goal_vilna_kraina
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_svoboda_slova
+			focus = UKR_build_schools
+			focus = UKR_deal_with_church
+		}
+		x = 72
+		y = 8
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UKR_democratic_reforms_2
+							add_idea = UKR_free_country
+						}
+					st_power_balance = {
+							id = UKR_oligarhs_balance
+							left_side = UKR_oligarhs_side
+							right_side = UKR_goverment_side
+							set_value = 0.0
+						}
+					hidden_effect = {
+							add_ideas = UKR_oligarhs_1
+							country_event = ukraine.18
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_deal_with_church
+		icon = GFX_goal_domovlenist_z_cherkvou
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_free_religion
+		}
+		x = 70
+		y = 7
+			completion_reward = {
+					country_event = ukraine.11
+				}
+
+	}
+	focus = {
+		id = UKR_build_schools
+		icon = GFX_goal_new_school
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_reform_education
+		}
+		x = 72
+		y = 7
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = UKR_svoboda_slova
+		icon = GFX_goal_svoboda_slova
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_radio_svoboda
+		}
+		x = 74
+		y = 7
+			completion_reward = {
+					add_political_power = 15
+					add_war_support = -0.05
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = UKR_mizmorya
+		icon = GFX_goal_mezmorya
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_free_country
+		}
+		prerequisite = {
+			focus = UKR_defend_democratic
+		}
+		x = 78
+		y = 9
+			completion_reward = {
+					UKR = {
+							country_event = {
+									id = ukraine.13
+									days = 5
+								}
+						}
+					set_rule = {
+							can_create_factions = yes
+						}
+					if = {
+							limit = {
+									is_in_faction = no
+								}
+							create_faction = "UKR_mizmorya"
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_referenduum_in_crimea
+		icon = GFX_goal_crimea_referenduum
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_mizmorya
+		}
+		x = 77
+		y = 10
+			completion_reward = {
+					CRI = {
+							country_event = {
+									id = crimea.1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_PET_fight_mahno
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_mizmorya
+		}
+		x = 79
+		y = 10
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = MHN
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_kishinev_meeteng
+		icon = GFX_goal_kishinivska_zystrich
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_referenduum_in_crimea
+			focus = UKR_PET_fight_mahno
+		}
+		x = 76
+		y = 11
+			completion_reward = {
+					MOL = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+					MOL = {
+							country_event = {
+									id = moldova.1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_trade_west
+		icon = GFX_goal_zahid_na_garatuy
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_PET_fight_mahno
+			focus = UKR_referenduum_in_crimea
+		}
+		x = 78
+		y = 11
+			completion_reward = {
+					POL = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_invite_belarus
+		icon = GFX_goal_friend_bilorus
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_PET_fight_mahno
+			focus = UKR_referenduum_in_crimea
+		}
+		x = 80
+		y = 11
+
+	}
+	focus = {
+		id = UKR_invite_pribaltics
+		icon = GFX_goal_invite_pribaltica
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_invite_belarus
+			focus = UKR_trade_west
+			focus = UKR_kishinev_meeteng
+		}
+		x = 78
+		y = 12
+			completion_reward = {
+					EST = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+					LAT = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+					LIT = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_invite_finland
+		icon = GFX_focus_invite_finland
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_invite_pribaltics
+		}
+		x = 76
+		y = 13
+			completion_reward = {
+					FIN = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_buy_zakarpattia
+		icon = GFX_goal_kupity_zakarpatye
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_invite_pribaltics
+		}
+		x = 80
+		y = 13
+			completion_reward = {
+					hidden_effect = {
+							CZE = {
+									country_event = {
+											id = generic.5
+											days = 1
+										}
+								}
+						}
+					CZE = {
+							country_event = {
+									id = czech.37
+									days = 5
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_defend_from_germans
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_buy_zakarpattia
+		}
+		x = 80
+		y = 14
+
+	}
+	focus = {
+		id = UKR_finnish_wall
+		icon = GFX_goal_fortify_finland
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_invite_finland
+		}
+		x = 76
+		y = 14
+			completion_reward = {
+					FIN = {
+							add_timed_idea = {
+									idea = FIN_ukr
+									days = 500
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_control_black_sea
+		icon = GFX_goal_kontrol_nad_morem
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_defend_from_germans
+		}
+		prerequisite = {
+			focus = UKR_finnish_wall
+		}
+		x = 78
+		y = 15
+			completion_reward = {
+					navy_experience = 25
+					192 = {
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					197 = {
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_invite_romania
+		icon = GFX_goal_ROM_UKR_alliance
+		cost = 3.00
+		prerequisite = {
+			focus = UKR_control_black_sea
+		}
+		x = 77
+		y = 16
+			completion_reward = {
+					ROM = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_invite_ugoslavia
+		icon = GFX_goal_focus_invite_yugoslavia
+		cost = 3.00
+		prerequisite = {
+			focus = UKR_control_black_sea
+		}
+		x = 79
+		y = 16
+			completion_reward = {
+					YUG = {
+							country_event = {
+									id = generic.5
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_PET_atack_ussr
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_invite_ugoslavia
+		}
+		prerequisite = {
+			focus = UKR_invite_romania
+		}
+		x = 78
+		y = 17
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SOV
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_rise_of_georgia
+		icon = GFX_goal_povstanie_v_grusiu
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_PET_atack_ussr
+		}
+		x = 77
+		y = 18
+
+	}
+	focus = {
+		id = UKR_ukrainian_kollaborants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_PET_atack_ussr
+		}
+		x = 79
+		y = 18
+		completion_reward = {
+           add_manpower = 5000
+}
+	}
+	focus = {
+		id = UKR_yet_nod_died
+		icon = GFX_goal_sche_ne_vmerla
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_ukrainian_kollaborants
+		}
+		prerequisite = {
+			focus = UKR_rise_of_georgia
+		}
+		x = 78
+		y = 19
+
+	}
+	focus = {
+		id = UKR_inner_politic
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = UKR_free_country
+		}
+		prerequisite = {
+			focus = UKR_defend_democratic
+		}
+		x = 72
+		y = 9
+
+	}
+	focus = {
+		id = UKR_oligarh_problem
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = UKR_inner_politic
+		}
+		x = 70
+		y = 10
+			completion_reward = {
+					country_event = ukraine.19
+				}
+
+	}
+	focus = {
+		id = UKR_liberalisation_of_market
+		icon = GFX_goal_market_liberalisation
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_inner_politic
+		}
+		x = 73
+		y = 10
+
+	}
+	focus = {
+		id = UKR_raids_on_oligarhs
+		icon = GFX_goal_raids_on_oligarhs
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_oligarh_problem
+		}
+		x = 71
+		y = 11
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UKR_oligarhs_1
+							add_idea = UKR_oligarhs_2
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_church_reform
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_oligarh_problem
+		}
+		x = 69
+		y = 11
+
+	}
+	focus = {
+		id = UKR_fight_nepotism
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_raids_on_oligarhs
+			focus = UKR_church_reform
+		}
+		x = 71
+		y = 12
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UKR_oligarhs_2
+							add_idea = UKR_oligarhs_3
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_fight_privatisation
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = UKR_raids_on_oligarhs
+			focus = UKR_church_reform
+		}
+		x = 69
+		y = 12
+
+	}
+	focus = {
+		id = UKR_small_buisnes_taxes
+		icon = GFX_goal_small_business_taxes
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_liberalisation_of_market
+		}
+		x = 73
+		y = 11
+
+	}
+	focus = {
+		id = UKR_sponsore_small_buisness
+		icon = GFX_goal_sponsore_small_buisnes
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_small_buisnes_taxes
+		}
+		x = 73
+		y = 12
+
+	}
+	focus = {
+		id = UKR_allow_pak
+		icon = GFX_goal_allow_pak
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_sponsore_small_buisness
+		}
+		x = 73
+		y = 13
+
+	}
+	focus = {
+		id = UKR_solve_qestion_of_oligarhs
+		icon = GFX_goal_ban_oligarhs
+		cost = 8.00
+		prerequisite = {
+			focus = UKR_fight_nepotism
+		}
+		prerequisite = {
+			focus = UKR_fight_privatisation
+		}
+		x = 70
+		y = 13
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UKR_oligarhs_3
+							add_idea = UKR_oligarhs_4
+						}
+				}
+
+	}
+	focus = {
+		id = UKR_develop_our_military_complex
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_start_mechanisation
+			focus = UKR_first_tanks
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = UKR_wheels_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_air_support
+		}
+		prerequisite = {
+			focus = UKR_supply
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = UKR_form_tank_kulacks
+		icon = GFX_goal_focus_generic_army_tanks
+		cost = 7.00
+		prerequisite = {
+			focus = UKR_buy_swedish_podshibniki
+			focus = UKR_develop_our_military_complex
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = UKR_supply
+		icon = GFX_goal_TakeCare_Supply
+		cost = 10.00
+		prerequisite = {
+			focus = UKR_form_tank_kulacks
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = UKR_air_support
+		icon = GFX_goal_focus_generic_tank_air_support
+		cost = 5.00
+		prerequisite = {
+			focus = UKR_form_tank_kulacks
+		}
+		x = 41
+		y = 6
+
+	}
+}

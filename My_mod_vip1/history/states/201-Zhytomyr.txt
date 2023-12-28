@@ -1,0 +1,29 @@
+
+state={
+	id=201
+	name="STATE_201"
+	manpower = 1417834
+	
+	state_category = town
+
+	history={
+		victory_points = {
+			6593 3
+		}
+		victory_points = {
+			11464 1
+		}
+		owner = UKR
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 3
+		}
+		add_core_of = UKR
+	}
+
+	provinces={
+		 550 3470 3570 9533 11464 11490 11514 6593
+	}
+
+	local_supplies=7.0 
+}

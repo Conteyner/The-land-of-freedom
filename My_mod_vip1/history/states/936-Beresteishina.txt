@@ -1,0 +1,27 @@
+state=
+{
+	id=936
+	name="STATE_936"
+	manpower = 780365
+	
+	state_category = town
+	
+	history= {
+		add_core_of = POL
+		add_core_of = BLR
+		owner = POL
+		victory_points = {
+			3567 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+                add_core_of = POL
+	}
+	provinces=
+	{
+        11528 6546 13296 13295 13278 13294}
+
+	local_supplies=4.0 
+}

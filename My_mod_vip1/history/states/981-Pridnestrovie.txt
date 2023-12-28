@@ -1,0 +1,28 @@
+state = {
+	id = 981
+	name = "STATE_981"
+
+	history = {
+		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+		}
+		victory_points = {
+			13240 7
+		}
+		owner = MOL
+		add_core_of = ROM
+		add_core_of = UKR
+		add_core_of = MOL
+
+	}
+
+	provinces = {
+	13276 13275 13274 13273
+	}
+	manpower = 359564
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

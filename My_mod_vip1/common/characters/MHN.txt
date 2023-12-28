@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Виктор Белаш
+viktorbelash = {
+	name = viktorbelash
+	portraits = {
+		civilian = {
+			#Custom image for Виктор Белаш
+			large = "/gfx/leaders/MHN/znQcseCy-549317.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = { Анархо-националист }
+	}
+}
+
+#Create country leader - Союз Свободных Корпораций
+soyuzsvobodnyhkorporaciy = {
+	name = soyuzsvobodnyhkorporaciy
+	portraits = {
+		civilian = {
+			#Custom image for Союз Свободных Корпораций
+			large = "/gfx/leaders/MHN/ynWYfpHq-549373.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Нестор Махно
+nestormahno = {
+	name = nestormahno
+	portraits = {
+		civilian = {
+			#Custom image for Нестор Махно
+			large = "/gfx/leaders/MHN/cJMeUvtR-549315.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchism
+		traits = { Отец Анархизма }
+	}
+}
+
+#Create country leader - Алексей Боровой
+alekseyborovoy = {
+	name = alekseyborovoy
+	portraits = {
+		civilian = {
+			#Custom image for Алексей Боровой
+			large = "/gfx/leaders/MHN/GMyATbot-549316.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = anarchist_communism
+		traits = {  }
+	}
+}
+}

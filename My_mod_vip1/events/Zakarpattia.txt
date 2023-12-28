@@ -1,0 +1,51 @@
+﻿add_namespace = zakarpattia
+country_event = {
+	id = zakarpattia.1
+	title = zakarpattia.1.t
+	desc = zakarpattia.1.d
+	picture = GFX_event_ukr_pidpis
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zakarpattia.1.a
+            ai_chance = {
+			factor = 95
+		}
+		UKR = {
+			add_state_core = 949
+			transfer_state = 949
+			add_state_core = 950
+			transfer_state = 950
+			add_state_core = 73
+			transfer_state = 73
+		}
+			option = {
+		name = zakarpattia.1.b
+            ai_chance = {
+			factor = 5
+			
+		}
+		UKR = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CRP
+			}
+		}
+			}
+}
+country_event = {
+	id = zakarpattia.2
+	title = zakarpattia.2.t
+	desc = zakarpattia.2.d
+	picture = GFX_event_ukr_pidpis
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = zakarpattia.2.a
+            ai_chance = {
+			factor = 100
+		}
+
+}

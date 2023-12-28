@@ -1,0 +1,66 @@
+#Create units
+division_template = {
+	name = "Example Division"
+	division_names_group = "CRI_DIV_0_0"
+
+}
+division_template = {
+	name = "Crimean army"
+	division_names_group = "CRI_DIV_1_0"
+	regiments = {
+		marine = { x = 0 y = 0}
+		infantry = { x = 1 y = 0}
+	}
+	support = {
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st Crimean army"
+		location = 568
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "2nd Crimean army"
+		location = 568
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "3rd Crimean army"
+		location = 568
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "4th Crimean army"
+		location = 6724
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "5th Crimean army"
+		location = 6724
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "6th Crimean army"
+		location = 6724
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "7th Crimean army"
+		location = 8282
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "8th Crimean army"
+		location = 8282
+		division_template = "Crimean army"
+	}
+	division= {
+		name = "9th Crimean army"
+		location = 8282
+		division_template = "Crimean army"
+	}
+}

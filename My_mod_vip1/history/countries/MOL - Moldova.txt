@@ -1,0 +1,57 @@
+﻿oob = "MOL_1936"
+capital = 1
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.5
+set_convoys = 0
+
+give_military_access = ROM #UKR #ля не можна контролювати двом країнам одну, гра не позволить#
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "MOL_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.2.12"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 77
+	fascism = 3
+	communism = 11
+	neutrality = 9
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+recruit_character = petrukazaku
+recruit_character = pyotrgrigorevichborodin
+recruit_character = dumitruchuguryanu
+recruit_character = moldavskiysovet
+
+recruit_character = ayorgualeksandresku
+recruit_character = kipriendaskalu
+recruit_character = georgeavramesku
+recruit_character = silviudarian
+

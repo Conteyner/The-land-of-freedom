@@ -1,0 +1,149 @@
+characters = {
+#Create country leader - Молдавский Совет
+moldavskiysovet = {
+	name = moldavskiysovet
+	portraits = {
+		civilian = {
+			#Custom image for Молдавский Совет
+			large = "/gfx/leaders/MOL/tRhnoTwX-9641.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Думитру Чугуряну
+dumitruchuguryanu = {
+	name = dumitruchuguryanu
+	portraits = {
+		civilian = {
+			#Custom image for Думитру Чугуряну
+			large = "/gfx/leaders/MOL/oirfMKOU-549302.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = {  }
+	}
+}
+
+#Create country leader - Пётр Григорьевич Бородин
+pyotrgrigorevichborodin = {
+	name = pyotrgrigorevichborodin
+	portraits = {
+		civilian = {
+			#Custom image for Пётр Григорьевич Бородин
+			large = "/gfx/leaders/MOL/cXJNLUAh-9476.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Петру Казаку
+petrukazaku = {
+	name = petrukazaku
+	portraits = {
+		civilian = {
+			#Custom image for Петру Казаку
+			large = "/gfx/leaders/MOL/yOwVBNjL-549152.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  }
+	}
+}
+
+#Create military leader - Айоргу Александреску
+	ayorgualeksandresku = {
+		name = "ayorgualeksandresku"
+		portraits = {
+			army = {
+				#Custom images for Айоргу Александреску
+				large = "/gfx/leaders/MOL/ayorgualeksandresku-549588.dds"
+				small = "/gfx/interface/ideas/MOL/ayorgualeksandresku-549588.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1431075850
+		}
+	}
+
+#Create military leader - Киприэн Даскалу
+	kipriendaskalu = {
+		name = "kipriendaskalu"
+		portraits = {
+			army = {
+				#Custom images for Киприэн Даскалу
+				large = "/gfx/leaders/MOL/kipriendaskalu-549605.dds"
+				small = "/gfx/interface/ideas/MOL/kipriendaskalu-549605.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1431075851
+		}
+	}
+
+#Create military leader - Георгэ Аврамеску
+	georgeavramesku = {
+		name = "georgeavramesku"
+		portraits = {
+			army = {
+				#Custom images for Георгэ Аврамеску
+				large = "/gfx/leaders/MOL/georgeavramesku-10073.dds"
+				small = "/gfx/interface/ideas/MOL/georgeavramesku-10073.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1431075852
+		}
+	}
+
+#Create military leader - Сильвиу Дариан
+	silviudarian = {
+		name = "silviudarian"
+		portraits = {
+			army = {
+				#Custom images for Сильвиу Дариан
+				large = "/gfx/leaders/MOL/silviudarian-549608.dds"
+				small = "/gfx/interface/ideas/MOL/silviudarian-549608.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1431075853
+		}
+	}
+}

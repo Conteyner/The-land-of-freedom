@@ -1,0 +1,24 @@
+state={
+	id=956
+	name="STATE_956"
+	manpower = 560300
+	
+	state_category = town
+	
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = CRI
+
+		
+	}
+
+	provinces={
+		
+		6704 9677  }
+
+	local_supplies=0.0 
+}

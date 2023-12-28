@@ -1,0 +1,26 @@
+state=
+{
+	id=991
+	name="STATE_991"
+	manpower = 780365
+	
+	state_category = rural
+	
+	history= {
+		add_core_of = MOL
+		owner = MOL
+		victory_points = {
+			3707 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOL
+                add_core_of = MOL
+	}
+	provinces=
+	{
+          414 3577 6600 13267 13268 13269 13270}
+
+	local_supplies=4.0 
+}

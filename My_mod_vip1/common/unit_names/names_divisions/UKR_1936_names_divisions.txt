@@ -1,0 +1,24 @@
+UKR_DIV_0_0 = {	name = "Example Division"
+	for_countries = { UKR }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Example Division"
+}
+UKR_DIV_1_0 = {	name = "Cossack Division"
+	for_countries = { UKR }
+	can_use = { always = yes }
+	division_types = { 
+		"cavalry" }
+	}
+	fallback_name = "%d. Cossack Division"
+}
+UKR_DIV_2_0 = {	name = "Ukrainian National Army"
+	for_countries = { UKR }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Ukrainian National Army"
+}

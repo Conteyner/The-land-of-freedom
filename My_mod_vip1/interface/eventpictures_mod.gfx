@@ -1,0 +1,62 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_event_ukr_rada"
+		texturefile = "gfx/event_pictures/event_ukr_rada.dds"
+	}
+		spriteType = {
+		name = "GFX_event_konovalets"
+		texturefile = "gfx/event_pictures/report_event_ukr.konovalets.dds"
+	}
+		spriteType = {
+		name = "GFX_event_petlura"
+		texturefile = "gfx/event_pictures/report_event_petlura.dds"
+	}
+	spriteType = {
+		name = "GFX_event_pivzavod_richerta"
+		texturefile = "gfx/event_pictures/event_pivzavod_richerta.dds"
+	}
+		spriteType = {
+		name = "GFX_report_event_ukr_rada_2"
+		texturefile = "gfx/event_pictures/report_event_ukr_rada_2.dds"
+	}
+			spriteType = {
+		name = "GFX_report_event_bolbochan.1"
+		texturefile = "gfx/event_pictures/report_event_bolbochan.1.dds"
+	}
+			spriteType = {
+		name = "GFX_event_ukr_vinnichenko_1"
+		texturefile = "gfx/event_pictures/event_ukr_vinnichenko_1.dds"
+	}
+			spriteType = {
+		name = "GFX_event_mihnovskii_1"
+		texturefile = "gfx/event_pictures/event_mihnovskii_1.dds"
+	}
+		spriteType = {
+		name = "GFX_event_ukr_church"
+		texturefile = "gfx/event_pictures/event_ukr_church.dds"
+	}
+	spriteType = {
+		name = "GFX_event_free_religion"
+		texturefile = "gfx/event_pictures/event_free_religion.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ukr_mizmorja"
+		texturefile = "gfx/event_pictures/event_ukr_mizmorja.dds"
+	}
+	spriteType = {
+		name = "GFX_event_ukr_pidpis"
+		texturefile = "gfx/event_pictures/event_ukr_pidpis.dds"
+	}
+	spriteType = {
+		name = "GFX_event_revolution.1"
+		texturefile = "gfx/event_pictures/event_revolution.1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_major_degtyarov"
+		texturefile = "gfx/event_pictures/event_major_degtyarov.dds"
+	}
+	spriteType = {
+		name = "GFX_event_UKR_finland"
+		texturefile = "gfx/event_pictures/event_finland.dds"
+	}

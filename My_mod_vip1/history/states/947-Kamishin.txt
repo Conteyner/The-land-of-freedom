@@ -1,0 +1,26 @@
+state=
+{
+	id=947
+	name="STATE_947"
+	manpower = 780365
+	
+	state_category = rural
+	
+	history= {
+		add_core_of = SOV
+		owner = SOV
+		victory_points = {
+			3567 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+                add_core_of = SOV
+	}
+	provinces=
+	{
+          6539 9475 3518 6506 6602 9436 11423 518 3582  }
+
+	local_supplies=4.0 
+}
